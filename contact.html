@@ -82,7 +82,7 @@ document.addEventListener('submit',function(e){if(e.target.name==='contact')gtag
     </div>
     <form name="contact" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="company-website">
       <input type="hidden" name="form-name" value="contact">
-      <p class="hidden"><label>Leave this empty <input name="company-website"></label></p>
+      <p class="hidden" aria-hidden="true" style="display:none"><label>Leave this empty <input name="company-website" tabindex="-1" autocomplete="off"></label></p>
       <div class="row">
         <div class="field"><label for="name">Name</label><input id="name" name="name" autocomplete="name" required></div>
         <div class="field"><label for="org">Organisation</label><input id="org" name="organisation" autocomplete="organization"></div>
