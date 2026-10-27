@@ -9,3 +9,6 @@
 /speaking             /speaking.html    301
 /work                 /work.html        301
 https://clivevanderwagen.com/*  https://www.clivevanderwagen.com/:splat  301!
+
+# Keep function source code off the public site
+/netlify/*  /404.html  404!

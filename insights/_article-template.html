@@ -4,7 +4,8 @@ HOW TO ADD A NEW ARTICLE
 2. Replace everything in [SQUARE BRACKETS].
 3. Add a matching entry to insights/index.html (copy an existing <article class="post"> block)
    and, if you want it on the home page, swap it into the "Latest thinking" section of index.html.
-4. Add the URL to sitemap.xml.
+4. Add the URL to sitemap.xml with today's date as <lastmod>. When you edit an existing page, update its <lastmod> too:
+   Bing is notified automatically (IndexNow) about pages changed in the last 3 days.
 5. Drag the whole site folder into Netlify again (or push to your repo) to publish.
 -->
 <!doctype html>
