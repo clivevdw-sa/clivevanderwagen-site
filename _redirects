@@ -1,0 +1,11 @@
+# Old Wix URLs -> new site (301 = permanent, keeps Google rankings)
+/blog                 /insights/        301
+/blog/*               /insights/        301
+/post/*               /insights/        301
+/about                /about.html       301
+/contact              /contact.html     301
+/book                 /book.html        301
+/my-book              /book.html        301
+/speaking             /speaking.html    301
+/work                 /work.html        301
+https://clivevanderwagen.com/*  https://www.clivevanderwagen.com/:splat  301!
