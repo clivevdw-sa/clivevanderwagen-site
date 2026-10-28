@@ -376,3 +376,6 @@ form .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .press-list .src { display: block; font-size: .85rem; letter-spacing: .06em; text-transform: uppercase; color: var(--coral-dark); font-weight: 500; }
 .press-list h3 { margin: 6px 0 6px; font-size: 1.3rem; }
 .press-list p { margin: 0; color: var(--muted); }
+
+/* WebP images: let the <img> behave as if <picture> were not there */
+picture { display: contents; }
