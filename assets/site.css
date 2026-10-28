@@ -398,3 +398,18 @@ picture > source { display: none; }
 .excerpt blockquote { margin: 1.4em 0; padding: 14px 20px; border-left: 3px solid var(--coral); background: var(--sun-soft); border-radius: 0 var(--radius) var(--radius) 0; font-style: italic; color: var(--nightfall); }
 .excerpt .read-on { margin-top: 1.6em; font-weight: 500; }
 @media (max-width: 720px) { .excerpt { padding: 24px 20px; } }
+
+/* Ego states figure (CX article) */
+.ego-fig { margin: 2em 0; }
+.ego-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.ego { background: var(--white); border-radius: var(--radius); border-top: 5px solid var(--e); padding: 16px 18px; font-size: .95rem; line-height: 1.55; }
+.ego h3 { font-size: 1.15rem; margin: 0 0 2px; font-weight: 500; }
+.ego .tag { color: var(--muted); font-size: .85rem; margin: 0 0 10px; }
+.ego p { margin: 0 0 8px; }
+.ego .says { font-style: italic; color: var(--nightfall); }
+.ego .hears { font-size: .9rem; }
+.ego .hears b { font-weight: 600; }
+.ego.miss { --e: var(--coral); }
+.ego.hit { --e: var(--sky); }
+.ego-fig figcaption { color: var(--muted); font-size: .9rem; margin-top: 10px; }
+@media (max-width: 620px) { .ego-grid { grid-template-columns: 1fr; } }
