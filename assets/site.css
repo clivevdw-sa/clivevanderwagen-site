@@ -389,3 +389,12 @@ blockquote.review { margin: 0; background: var(--white); border-left: 4px solid 
 .review footer strong { color: var(--ink); font-weight: 600; }
 .book-facts { color: #C9CED9; font-size: .92rem; margin-top: 18px; }
 picture > source { display: none; }
+
+/* Book excerpt */
+.excerpt { background: var(--white); border: 1px solid var(--rule); border-radius: var(--radius); padding: 34px 38px; margin-top: 24px; font-size: 1.04rem; line-height: 1.8; }
+.excerpt .chapter-label { font-size: .82rem; letter-spacing: .1em; text-transform: uppercase; color: var(--coral-dark); font-weight: 500; margin: 0 0 4px; }
+.excerpt h3 { font-size: 1.6rem; font-weight: 300; margin: 0 0 1em; }
+.excerpt h4 { font-family: var(--serif); font-weight: 500; font-size: 1.2rem; margin: 1.6em 0 .5em; }
+.excerpt blockquote { margin: 1.4em 0; padding: 14px 20px; border-left: 3px solid var(--coral); background: var(--sun-soft); border-radius: 0 var(--radius) var(--radius) 0; font-style: italic; color: var(--nightfall); }
+.excerpt .read-on { margin-top: 1.6em; font-weight: 500; }
+@media (max-width: 720px) { .excerpt { padding: 24px 20px; } }
