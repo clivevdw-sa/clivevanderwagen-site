@@ -379,3 +379,13 @@ form .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 
 /* WebP images: let the <img> behave as if <picture> were not there */
 picture { display: contents; }
+
+/* Reader reviews */
+.reviews { display: grid; gap: 22px; margin-top: 24px; }
+blockquote.review { margin: 0; background: var(--white); border-left: 4px solid var(--sun); border-radius: 0 var(--radius) var(--radius) 0; padding: 22px 26px; font-style: normal; color: var(--ink); }
+.review p { margin: 0 0 .7em; }
+.review .pull { font-family: var(--serif); font-size: 1.35rem; line-height: 1.35; color: var(--navy); }
+.review footer { color: var(--muted); font-size: .92rem; }
+.review footer strong { color: var(--ink); font-weight: 600; }
+.book-facts { color: #C9CED9; font-size: .92rem; margin-top: 18px; }
+picture > source { display: none; }
