@@ -10,7 +10,7 @@ document.addEventListener('click',function(e){var a=e.target.closest&&e.target.c
 if(h.indexOf('contact.html')>-1)gtag('event','book_call_click',{link_url:h});
 else if(h.indexOf('mailto:')===0)gtag('event','email_click');
 else if(h.indexOf('tel:')===0)gtag('event','phone_click');
-else if(h.indexOf('amzn.eu')>-1||h.indexOf('a.co/')>-1)gtag('event','book_buy_click',{link_url:h});});
+else if(h.indexOf('amazon.')>-1||h.indexOf('a.co/')>-1)gtag('event','book_buy_click',{link_url:h});});
 document.addEventListener('submit',function(e){if(e.target.name==='contact')gtag('event','generate_lead',{form_name:'contact'});});
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
